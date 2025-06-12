@@ -1,14 +1,5 @@
-<<<<<<< HEAD
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-
-const App = () => {
-  return <h1>TEST TEST</h1>;
-=======
-import React, { useState } from "react";
-import { Search } from "./components/Search";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -27,7 +18,6 @@ const App = () => {
       </div>
     </main>
   );
->>>>>>> main
 };
 
 export default App;
