@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Search } from "./components/Search";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  //Test
   return (
     <main>
       <div className="pattern" />
