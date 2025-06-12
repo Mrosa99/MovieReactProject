@@ -1,13 +1,9 @@
-<<<<<<< HEAD
 import React, { useState } from "react";
 import { Search } from "./components/Search";
-=======
-
-import React from "react";
->>>>>>> d96def840711c781e637ae4ac8dbfac6a6b775fb
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
+  //Test
   return (
     <main>
       <div className="pattern" />
@@ -23,7 +19,6 @@ const App = () => {
       </div>
     </main>
   );
-
 };
 
 export default App;
