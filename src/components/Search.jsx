@@ -12,6 +12,7 @@ export const Search = ({ searchTerm, setSearchTerm }) => {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
+      <h1 className="text-white">{searchTerm}</h1>
     </div>
   );
 };

@@ -1,11 +1,9 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-
-import React from "react";
+import React, { useState } from "react";
+import { Search } from "./components/Search";
 
 const App = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+  //Test
   return (
     <main>
       <div className="pattern" />
